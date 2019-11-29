@@ -48,40 +48,35 @@ font-family: "Mason Chronicles";
 }
 .wrap{flex-wrap: wrap;
   align-items:flex-start;
+  justify-content: space-around;
   }
 .aboutgame {width: 45%;
   font-size: 24px;
   margin-right: 0px;
   }
-.firstpic {width: 45%;
-  height:45%;
+.firstpic {width: 720px;
 }
-.character {width: 20%; 
+.character {width: 320px; 
  }
 .actorname{font-size: 26px;
   text-align: center;
   font-family: "Roboto Regular";
   }
-.portret{width: 84%;
-  display:inline-block;
+.portret{width: 250px;
   position:relative;
-  padding-left: 8%;
-  padding-right: 8%;
-}
+  margin: auto;
+  }
 .portret span {
-  display:inline-block;
-  position:absolute;
-  top: 80%;
-  color: #FFFFFF;
+  color: #FFA500;
   font-size: 22px;
-  background-color: #0f161a;
+  background-color: #1d2325;
   padding-top: 10px;
   padding-right:20px;
   padding-bottom: 10px;
-  padding-left: 10%;
-  opacity: 0.85;
+  padding-left: 20px;
+  opacity: 0.9;
 }
-/* Roboto-Light */
+  /* Roboto-Light */
 @font-face {font-family: 'Roboto Light';
     font-weight: 400;
     src: local('Roboto Light'), local('RobotoLt-Regular'),
@@ -99,4 +94,5 @@ font-family: "Mason Chronicles";
     src: local('MasonChronicles'), local('MasonChronicles-Regular'),
                 url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Mason%20Chronicles.ttf?raw=true) format('truetype'),
 url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/masonchronicle.woff?raw=true) format('woff')
+      /* Mason Chronicles в woff2 не нашла, системная замена в принципе устраивает, но не понимаю, почему не ставится шрифт*/
 }
