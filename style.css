@@ -85,13 +85,13 @@ font-family: "Mason Chronicles";
 @font-face {font-family: 'Roboto Light';
     font-weight: 400;
     src: local('Roboto Light'), local('RobotoLt-Regular'),
-        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Light.woff2) format('woff2'),
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Bold.woff2?raw=true) format('woff2'),
        }
 /* Roboto-Regular */
 @font-face {font-family: 'Roboto Regular';
     font-weight: 400;
     src: local('Roboto Regular'), local('Roboto-Regular'),
-        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Regular.woff2) format('woff2'),
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Regular.woff2?raw=true) format('woff2'),
 }
 /* Mason Chronicles */
 @font-face {font-family: 'MasonChronicles';
