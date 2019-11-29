@@ -1,3 +1,4 @@
+/* Основные параметры */
 body {color: #DCDCDC;
   background: #000000;
   font-size: 18px;
@@ -17,6 +18,7 @@ h3 {font-size: 32px;
 font-family: "Mason Chronicles";
    text-align: center;
 }
+/* Блок 2 - "обложка" */
 .backpic1 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/img/mainfirst.jpg);
  background-size: cover;
  height: 400px;
@@ -24,9 +26,11 @@ font-family: "Mason Chronicles";
 .box1 {padding-top: 180px;
   color: #fffefb;
 }
+/* Подложка под основнуючасть страницы */
 .backpic2 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/img/full.jpg);
  background-size: 15%;
  }
+/* Общий для Блоков 3 и 4 флекс */
 .flex-container {
   display: flex;
   -ms-box-orient: horizontal;
@@ -38,24 +42,27 @@ font-family: "Mason Chronicles";
   display: flex;
   justify-content: space-evenly;
 }
+/* Варианты уточнений флекса */
 .wrap-reverse         { 
   -webkit-flex-wrap: wrap-reverse;
   flex-wrap: wrap-reverse;
   align-items: center;
 }
-.padding-top-bottom{padding-top: 50px;
-  padding-bottom: 50px;
-}
 .wrap{flex-wrap: wrap;
   align-items:flex-start;
   justify-content: space-around;
   }
+/* Блок 3 - "краткое описание игры + картиночка" */
+.padding-top-bottom{padding-top: 50px;
+  padding-bottom: 50px;
+}
 .aboutgame {width: 45%;
   font-size: 24px;
   margin-right: 0px;
   }
 .firstpic {width: 720px;
 }
+/* Блок 4 - "актеры озвучки" */
 .character {width: 320px; 
  }
 .actorname{font-size: 26px;
@@ -76,6 +83,7 @@ font-family: "Mason Chronicles";
   padding-left: 20px;
   opacity: 0.9;
 }
+/* Шрифты про которые я не понимаю, работают ли они, если не установлены на комп (Мне кажется, Roboto работает, а Mason Chronicles - нет) */
   /* Roboto-Light */
 @font-face {font-family: 'Roboto Light';
     font-weight: 400;
