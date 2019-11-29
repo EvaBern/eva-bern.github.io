@@ -16,14 +16,14 @@ h3 {font-size: 32px;
   Font-family: "Roboto";
   text-align: center;
 }
-.backpic1 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/witcher/site/img/mainfirst.jpg);
+.backpic1 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/img/mainfirst.jpg);
  background-size: cover;
  height: 400px;
 }
 .box1 {padding-top: 180px;
   color: #fffefb;
 }
-.backpic2 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/witcher/site/img/full.jpg);
+.backpic2 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/img/full.jpg);
  background-size: 15%;
  }
 .flex-container {
