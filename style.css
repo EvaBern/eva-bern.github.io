@@ -14,8 +14,8 @@ h2 {width: 48%;
   text-align: right;
 }
 h3 {font-size: 32px;
-  Font-family: "Roboto";
-  text-align: center;
+font-family: "Mason Chronicles";
+   text-align: center;
 }
 .backpic1 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/img/mainfirst.jpg);
  background-size: cover;
@@ -60,7 +60,7 @@ h3 {font-size: 32px;
  }
 .actorname{font-size: 26px;
   text-align: center;
-  font-family: "Roboto Bold";
+  font-family: "Roboto Regular";
   }
 .portret{width: 84%;
   display:inline-block;
@@ -80,4 +80,25 @@ h3 {font-size: 32px;
   padding-bottom: 10px;
   padding-left: 10%;
   opacity: 0.85;
+}
+/* Roboto-Light */
+@font-face {
+    font-family: 'Roboto Light';
+    font-weight: 400;
+    src: local('Roboto Light'), local('RobotoLt-Regular'),
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Light.woff2) format('woff2'),
+       }
+/* Roboto-Regular */
+@font-face {
+    font-family: 'Roboto Regular';
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Regular.woff2) format('woff2'),
+}
+/* Mason Chronicles */
+@font-face {
+    font-family: 'MasonChronicles';
+    font-weight: 400;
+    src: local('MasonChronicles'), local('MasonChronicles-Regular'),
+                url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Mason%20Chronicles.ttf) format('truetype');
 }
