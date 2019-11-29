@@ -4,26 +4,23 @@
     font-style: normal;
     font-weight: 700;
     src: local('Roboto Bold'), local('Roboto-Bold'),
-        url(http://allfont.ru/cache/fonts/roboto-bold_aa865d37ee4a1cbd58a4f1c027933149.woff) format('woff'),
-        url(http://allfont.ru/cache/fonts/roboto-bold_aa865d37ee4a1cbd58a4f1c027933149.ttf) format('truetype');
-}
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Bold.woff2) format('woff2'),
+        }
 /* Roboto-Light */
 @font-face {
     font-family: 'Roboto Light';
     font-style: normal;
     font-weight: 400;
     src: local('Roboto Light'), local('RobotoLt-Regular'),
-        url(http://allfont.ru/cache/fonts/roboto-light_85c220ba059dfba8286cf7085f2f591f.woff) format('woff'),
-        url(http://allfont.ru/cache/fonts/roboto-light_85c220ba059dfba8286cf7085f2f591f.ttf) format('truetype');
-}
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Light.woff2) format('woff2'),
+       }
 /* Roboto-Regular */
 @font-face {
     font-family: 'Roboto Regular';
     font-style: normal;
     font-weight: 400;
     src: local('Roboto Regular'), local('Roboto-Regular'),
-        url(http://allfont.ru/cache/fonts/roboto-regular_930678068cb1bea8d60f8083f9dab81d.woff) format('woff'),
-        url(http://allfont.ru/cache/fonts/roboto-regular_930678068cb1bea8d60f8083f9dab81d.ttf) format('truetype');
+        url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Roboto-Regular.woff2) format('woff2'),
 }
 /* Mason Chronicles */
 @font-face {
@@ -31,6 +28,5 @@
     font-style: normal;
     font-weight: 400;
     src: local('MasonChronicles'), local('MasonChronicles-Regular'),
-        url(http://www.allfont.es/cache/fonts/masonchronicles_779e00bdef0de7500cc808aedc789901.woff) format('woff'),
-        url(http://www.allfont.es/cache/fonts/masonchronicles_779e00bdef0de7500cc808aedc789901.ttf) format('truetype');
+                url(https://github.com/EvaBern/eva-bern.github.io/blob/master/fonts/Mason%20Chronicles.ttf) format('truetype');
 }
