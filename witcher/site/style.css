@@ -16,14 +16,14 @@ h3 {font-size: 32px;
   Font-family: "Roboto";
   text-align: center;
 }
-.backpic1 {background-image: url(https://i.ibb.co/fvFVJVD/mainfirst.jpg);
+.backpic1 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/witcher/site/img/mainfirst.jpg);
  background-size: cover;
  height: 400px;
 }
 .box1 {padding-top: 180px;
   color: #fffefb;
 }
-.backpic2 {background-image: url(https://i.ibb.co/7YNhQKS/full.jpg);
+.backpic2 {background-image: url(https://raw.githubusercontent.com/EvaBern/eva-bern.github.io/master/witcher/site/img/full.jpg);
  background-size: 15%;
  }
 .flex-container {
@@ -61,13 +61,13 @@ h3 {font-size: 32px;
 .actorname{font-size: 26px;
   text-align: center;
 }
-.kuzpic{width: 84%;
+.portret{width: 84%;
   display:inline-block;
   position:relative;
   padding-left: 8%;
   padding-right: 8%;
 }
-.kuzpic span {
+.portret span {
   display:inline-block;
   position:absolute;
   top: 80%;
