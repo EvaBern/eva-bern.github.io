@@ -1,15 +1,15 @@
 body {color: #DCDCDC;
   background: #000000;
   font-size: 18px;
-  font-family: "Roboto Regular", normal;
+  font-family: "Roboto Regular";
   }
 h1 {width: 48%;
-  font-family: "Mason Chronicles", normal;
+  font-family: "Mason Chronicles";
   font-size: 48px;
   text-align: right;
   }
 h2 {width: 48%;
-  Font-family: "Roboto Light", normal;
+  Font-family: "Roboto Light";
   font-size: 32px;
   text-align: right;
 }
@@ -60,7 +60,7 @@ h3 {font-size: 32px;
  }
 .actorname{font-size: 26px;
   text-align: center;
-  font-family: "Roboto Bold", normal;
+  font-family: "Roboto Bold";
   }
 .portret{width: 84%;
   display:inline-block;
